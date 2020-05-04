@@ -5,6 +5,8 @@
     <RootNamespace>okml_console_test</RootNamespace>
 
     <IsPackable>false</IsPackable>
+    <LangVersion>8.0</LangVersion>
+    <NullableContextOptions>enable</NullableContextOptions>        
   </PropertyGroup>
 
   <ItemGroup>

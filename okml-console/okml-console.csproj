@@ -4,6 +4,12 @@
     <OutputType>Exe</OutputType>
     <TargetFramework>netcoreapp3.1</TargetFramework>
     <RootNamespace>okml_console</RootNamespace>
+    <LangVersion>8.0</LangVersion>
+    <NullableContextOptions>enable</NullableContextOptions>    
   </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\okml-lib\okml-lib.csproj" />
+  </ItemGroup>
 
 </Project>
